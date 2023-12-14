@@ -1,11 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 16px;
   font-weight: 700;
-  color: #ffffff;
-  text-transform: uppercase;
+  line-height: 18px;
 
   background-color: #849d8f;
-  background-image: url("/img/background.png");
 }
