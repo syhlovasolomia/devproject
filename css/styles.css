@@ -16,7 +16,7 @@ body input[type="radio"] {
   background-position: top center;
   margin-right: auto;
   margin-left: auto;
-  background-image: url("D:/P/projects/devproject/img/slide01.png");
+  background-image: url("../img/SLIDE01.png");
 }
 
 .slider-wrapper:before,
@@ -27,17 +27,17 @@ body input[type="radio"] {
 
 .slider-wrapper:before,
 .slider-wrapper:after {
-  background-image: url("D:/P/projects/devproject/img/slide02.png");
+  background-image: url("../img/SLIDE02.png");
 }
 
 .slider-wrapper:after {
-  background-image: url("D:/P/projects/devproject/img/slide03.png");
+  background-image: url("..img/SLIDE03.png");
 }
 
 .clearfix::after {
   content: "";
-  display: table;
   clear: both;
+  display: table;
 }
 
 .logo {
@@ -54,13 +54,16 @@ body input[type="radio"] {
 }
 
 .main-navigation {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-
+  color: #fff;
+  font-family: Roboto;
   font-size: 16px;
-  line-height: 20px;
-  color: #ffffff;
+  font-weight: 700;
+  line-height: normal;
+  width: 382px;
+  float: left;
+}
+
+.search-container {
 }
 
 .user-navigation {
@@ -71,6 +74,29 @@ body input[type="radio"] {
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+}
+
+.time-and-contact-info {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+
+.working-hours {
+  color: #fff;
+  padding-bottom: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.phone-number {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
 }
 
 .button {
@@ -182,15 +208,15 @@ img {
 }
 
 #img1:checked ~ .slider-wrapper {
-  background-image: url(/img/SLIDE01.png);
+  background-image: url(..img/SLIDE01.png);
 }
 
 #img2:checked ~ .slider-wrapper {
-  background-image: url(/img/SLIDE02.png);
+  background-image: url(../img/SLIDE02.png);
 }
 
 #img3:checked ~ .slider-wrapper {
-  background-image: url(/img/slide03.png);
+  background-image: url(../img/slide03.png);
 }
 
 /*колір листалки*/
@@ -210,21 +236,65 @@ img {
   line-height: 60.349px;
 }
 
-.ad-title {
+.offers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offers-title {
   margin: 0;
+  margin-bottom: 16px;
   color: #fff;
   font-family: Roboto;
   font-size: 35px;
-  font-weight: 700;
   line-height: 41px;
+  font-weight: 700;
 }
 
-.ad-desc {
+.offers-content {
+  padding-left: 19px;
+  padding-top: 16px;
+  padding-right: 21px;
+  padding-bottom: 24px;
+}
+
+.offers-left {
+  float: left;
+  width: 560px;
+  background-color: #981a34;
+  background-image: url("../img/raspberries.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.offers-right {
+  float: right;
+  width: 560px;
+  background-color: #3c2318;
+  background-image: url("../img/chocolates.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.offers p {
   color: #fff;
   font-family: Roboto;
   font-size: 18px;
   font-weight: 700;
   line-height: 22px;
+  margin: 0;
+  margin-bottom: 42px;
+}
+
+.wrapper-offers-button {
+  text-align: right;
+}
+
+.offers-button {
+  padding-left: 21px;
+  padding-right: 23px;
 }
 
 .product-section {
