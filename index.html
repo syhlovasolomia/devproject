@@ -2,267 +2,276 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-    <title>Gllacy Shop</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	<title>Gllacy Shop</title>
 </head>
 
 <body>
-    <!-- Листалка -->
-    <input type="radio" name="toogle" id="img1" checked>
-    <input type="radio" name="toogle" id="img2">
-    <input type="radio" name="toogle" id="img3">
-    <div class="slider-wrapper">
-        <div class="clearfix"></div>
+	<!-- Листалка -->
+	<div class="clearfix"></div>
 
-        <!-- Логотип -->
+	<!-- Логотип -->
 
-        <header>
-            <div class="logo">
-                <img class="logo-pic" src="svg/logo.svg" width="154" height="64" alt="Gllacy Shop">
-            </div>
+	<header>
+		<div class="logo">
+			<img class="logo-pic" src="svg/logo.svg" width="154" height="64" alt="Gllacy Shop">
+		</div>
 
-            <!-- Головна навігація -->
+		<!-- Головна навігація -->
 
-            <div>
-                <nav class="main-navigation">
-                    <a href="catalog.html">Catalog</a>
-                    <a href="delivery-and-payment.html">Delivery and Payment</a>
-                    <a href="about-company.html">About Company</a>
-                    </ul>
-                </nav>
-            </div>
+		<div>
+			<nav class="main-navigation">
+				<a href="catalog.html">Catalog</a>
+				<a href="delivery-and-payment.html">Delivery and Payment</a>
+				<a href="about-company.html">About Company</a>
+				</ul>
+			</nav>
+		</div>
 
-            <!-- Кнопка пошуку -->
+		<!-- Кнопка пошуку -->
 
-            <div class="search-container">
-                <img src="D:\P\projects\devproject\img\loupe.svg" alt="">
-            </div>
+		<div class="search-container">
+			<img src="D:\P\projects\devproject\img\loupe.svg" alt="">
+		</div>
 
-            <!-- Навігація користувача -->
+		<!-- Навігація користувача -->
 
-            <div>
-                <nav class="user-navigation">
-                    <a href="login.html">Log In</a>
-                    <a href="basket.html">Empty</a>
-                </nav>
-                <ul class="time-and-contact-info">
-                    <li class="working-hours"> From 10am to 8pm, everyday</li>
-                    <li class="phone-number">325-844-1362</li>
-                </ul>
-            </div>
-        </header>
+		<div>
+			<nav class="user-navigation">
+				<a href="login.html">Log In</a>
+				<a href="basket.html">Empty</a>
+			</nav>
+			<ul class="time-and-contact-info">
+				<li class="working-hours"> From 10am to 8pm, everyday</li>
+				<li class="phone-number">325-844-1362</li>
+			</ul>
+		</div>
+	</header>
 
 
-        <!-- Слайдер -->
+	<!-- Слайдер -->
 
-        <main>
-            <section class="ad-section">
-                <div class="ad-container">
-                    <div class="slider">
-                        <div class="slider-dots">
-                            <label for="img1"></label>
-                            <label for="img2"></label>
-                            <label for="img3"></label>
-                        </div>
-                        <div class="slide slide-1">
-                            <div class="slide-title">Creme brulee<br>and raspberry jam ice cream
-                            </div>
-                            <a href="#" class="button slider-button">I want to get both!</a>
-                        </div>
+	<main>
+		<section class="ad-section">
+			<div class="ad-container">
+				<div class="slider">
+					<div class="slider-dots">
+						<label for="img1"></label>
+						<input type="radio" name="toogle" id="img1" checked>
+						<label for="img2">
+						</label>
+						<input type="radio" name="toogle" id="img2">
+						<label for="img3">
+						</label>
+						<input type="radio" name="toogle" id="img3">
+					</div>
+					<div class="slider-wrapper">
+						<div class="slide slide-1">
+							<div class="slide-title">Creme brulee<br>and raspberry jam ice cream
+							</div>
+							<a href="#" class="button slider-button">I want to get both!</a>
+						</div>
 
-                        <div class="slide slide-2">
-                            <div class="slide-title">Chocolate ice cream<br>and lemon sorbet
-                            </div>
-                            <a href="#" class="button slider-button">I want to get both!</a>
-                        </div>
+						<div class="slide slide-2">
+							<div class="slide-title">Chocolate ice cream<br>and lemon sorbet
+							</div>
+							<a href="#" class="button slider-button">I want to get both!</a>
+						</div>
 
-                        <div class="slide slide-3">
-                            <div class="slide-title">Fudge sundae<br>and strawberry sorbet
-                            </div>
-                            <a href="#" class="button slider-button">I want to get both!</a>
-                        </div>
-                    </div>
+						<div class="slide slide-3">
+							<div class="slide-title">Fudge sundae<br>and strawberry sorbet
+							</div>
+							<a href="#" class="button slider-button">I want to get both!</a>
+						</div>
+					</div>
+				</div>
 
-                    <!-- Пропозиції -->
+				<!-- Пропозиції -->
+				<div class="offers">
+					<div class="offer-item offers-left">
+						<div class="offers-content">
+							<h2 class="offers-title">Raspberries for free!</h2>
+							<p>When you purchase 2 kg of any fruit ice cream, we will add a jar of raspberry jam
+								to
+								your order for free.</p>
+							<div class="wrapper-offers-button">
+								<a class="button offers-button" href="#">Get raspberries!</a>
+							</div>
+						</div>
+					</div>
+					<div class="offer-item offers-right">
+						<div class="offers-content">
+							<h2 class="offers-title">Chocolates for free!</h2>
+							<p>When you purchase 2 kg of ice cream, we will add a package of delicious chocolate
+								powder
+								to your order completely free of charge.</p>
+							<div class="wrapper-offers-button">
+								<a class="button offers-button" href="#">Get chocolates!</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-                    <div class="offers clearfix">
-                        <div class="offers-content">
-                            <div class="offers-left">
-                                <h2 class="offers-title">Raspberries for free!</h2>
-                                <p>When you purchase 2 kg of any fruit ice cream, we will add a jar of raspberry jam to
-                                    your order for free.</p>
-                                <div class="wrapper-offers-button">
-                                    <a class="button offers-button" href="#">Get raspberries!</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="offers clearfix">
-                        <div class="offers-content">
-                            <div class="offers-right">
-                                <h2 class="offers-title">Chocolates for free!</h2>
-                                <p>When you purchase 2 kg of ice cream, we will add a package of delicious chocolate
-                                    powder
-                                    to your order completely free of charge.</p>
-                                <div class="wrapper-offers-button">
-                                    <a class="button offers-button" href="#">Get chocolates!</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            </section>
+		<!-- Товари/хіти продажу -->
 
-            <!-- Товари/хіти продажу -->
+		<section class="product-section">
+			<div class="item">
+				<div class="item-image">
+					<a href="#">
+						<img src="img/orange-jam.png" alt="orange jam ice-cream" height="267" width="267"></a>
 
-            <section class="product-section">
-                <img src="img/orange-jam.png" alt="orange jam ice-cream" height="267" width="267">
-                <div class="product-price">
-                    <span class="price-value">35</span>
-                    <span class="price-currency">$</span>
-                    <span class="weight">/kg</span>
-                    <p class="product-title">
-                    <h3>Creamy with orange jam and citrus shavings</h3>
-                    </p>
+					<h2 class="item-title">
+						<a href="#">Creamy with orange jam and citrus shavings</a>
+					</h2>
+					<span class="item-price">45$/kg</span>
+				</div>
+			</div>
 
-                    <img src="img/coffee-chocolate.png" alt="coffee with choco ice-cream" height="267" width="267">
-                    <div class="product-price">
-                        <span class="price-value">35</span>
-                        <span class="price-currency">$</span>
-                        <span class="weight">/kg</span>
-                        <p class="product-title">
-                        <h3>Creamy coffee with chocolate pieces</h3>
-                        </p>
+			<div class="item">
+				<div class="item-image">
+					<a href="#">
+						<img src="img/coffee-chocolate.png" alt="coffee with choco ice-cream" height="267"
+							width="267"></a>
 
-                        <img src="img/strawberry-chocolate.png" alt="strawberry with choco ice-cream" height="267"
-                            width="267">
-                        <div class="product-price">
-                            <span class="price-value">35</span>
-                            <span class="price-currency">$</span>
-                            <span class="weight">/kg</span>
-                            <p class="product-title">
-                            <h3>Creamy strawberry with white chocolate sprinkles</h3>
-                            </p>
+					<h2 class="item-title">
+						<a href="#">Creamy coffee with chocolate pieces</a>
+					</h2>
+					<span class="item-price">50$/kg</span>
+				</div>
+			</div>
 
-                            <img src="img/creme-brulee.png" alt="creme brulee ice-cream" height="267" width="267">
-                            <div class="product-price">
-                                <span class="price-value">35</span>
-                                <span class="price-currency">$</span>
-                                <span class="weight">/kg</span>
-                                <p class="product-title">
-                                <h3>Creamy creme brulee with caramel sauce</h3>
-                                </p>
-                            </div>
+			<div class="item">
+				<div class="item-image">
+					<a href="#">
+						<img src="img/strawberry-chocolate.png" alt="strawberry with choco ice-cream" height="267"
+							width="267"></a>
 
-                            <!-- Про магазин -->
+					<h2 class="item-title">
+						<a href="#">Creamy strawberry with white chocolate sprinkles</a>
+					</h2>
+					<span class="item-price">35$/kg</span>
+				</div>
+			</div>
 
-                            <div class="about-store-motto">
-                                <h3>Gllacy store is an online and offline store selling ice cream of its own
-                                    production
-                                    by
-                                    weight</h3>
-                                <div class="about-store-left">
-                                    <p>All our ice cream is made in-house, using modern equipment and
-                                        time-tested
-                                        technologies.</p>
-                                    <p>The ice cream is made using real cream and milk of the highest quality.
-                                        All
-                                        additional
-                                        ingredients and additives are made from natural, environmentally
-                                        friendly raw
-                                        materials.</p>
-                                </div>
-                                <div class="about-store-right">
-                                    <p>Ingredients are purchased only from trusted farms and
-                                        companies with whom we have long-term cooperation.</p>
-                                    <p>Our ice cream is delivered to
-                                        customers in a special thermal pack, which prevents the ice cream from
-                                        melting
-                                        on
-                                        the way and allows it to maintain its excellent taste.</p>
-                                </div>
-                            </div>
+			<div class="item">
+				<div class="item-image">
+					<a href="#">
+						<img src="img/creme-brulee.png" alt="creme brulee ice-cream" height="267" width="267"></a>
 
-                            <!-- Блог -->
+					<h2 class="item-title">
+						<a href="#">Creamy creme brulee with caramel sauce</a>
+					</h2>
+					<span class="item-price">38$/kg</span>
+				</div>
+			</div>
+		</section>
 
-                            <div class="blog">
-                                <div class="blog-container">
-                                    <h3>New on our blog</h3>
-                                    <a href="###">
-                                        <p>10 ways to serve fruit sorbets at the table</p>
-                                    </a>
-                                </div>
-                            </div>
+		<!-- Про магазин -->
 
-                            <!-- Підписка -->
-
-                            <div class="subscription">
-                                <div class="subscription-container">
-                                    <p>Subscribe to our sweet newsletter and you will always be aware of all
-                                        the delicious things that are happening with us. We promise not to spam
-                                        or send
-                                        any
-                                        unnecessary nonsense. Promise!</p>
-                                </div>
-                            </div>
-                            <form class="subscription-form" action="###" method="post">
-                                <div class="wrapper-subscription">
-                                    <input type="email" name="subscription-email" id="subscription-email"
-                                        placeholder="email@example.com">
-                                    <label for="subscription-email"></label>
-                                </div>
-                                <div class="subscription-button-wrapper">
-                                    <button class="button" type="submit">Send</button>
-                            </form>
-                        </div>
+		<div class="about-store-motto clearfix">
+			<h2>Gllacy store is an online and offline store selling ice cream of its own production by weight</h2>
+			<img class="motto-img" src="svg/ice-cream.svg">
+			<p>All our ice cream is made in-house, using modern equipment and time-testedtechnologies.</p><img
+				class="motto-img" src="svg/eco.svg">
+			<p>The ice cream is made using real cream and milk of the highest quality. All additional ingredients
+				and
+				additives are made from natural, environmentally friendly raw materials.</p>
+			<img class="motto-img" src="svg/cow.svg">
+			<p>Ingredients are purchased only from trusted farms and companies
+				with whom we have long-term
+				cooperation.</p>
+			<img class="motto-img" src="svg/thermometer.svg">
+			<p>Our ice cream is delivered tocustomers in a special thermal pack, which prevents the ice cream from
+				melting on the way and allows it to maintain its excellent taste.</p>
+		</div>
 
 
-                        <!-- Карта -->
+		<!-- Блог -->
 
-                        <div class="map"></div>
+		<div class="blog clearfix">
+			<div class="blog-news">
+				<div class="blog-container">
+					<h2>New on our blog</h2>
+					<a href="###">
+						<p>Check out new 10 ways to serve fruit sorbets at the table!</p>
+					</a>
+				</div>
+			</div>
+		</div>
 
-                        <div class="address"></div>
-                        <p class="address-information">
-                            <span>Main office and offline store address:</span><br>
-                            <span>1997 Marigold Lane, Erie</span>
-                        </p>
+		<!-- Підписка -->
 
-                        <p>For orders by phone:<br>
-                            <span>325-844-1362</span><br>(from 10am to 8pm daily)
-                        </p>
-
-                        <button>Feedback form</button>
-
-
-                        <!-- Підвал сайту -->
-
-                        <footer>
-                            <div class="socials"> <a href="#">Twitter</a>
-                                <a href="#">Instagram</a>
-                                <a href="#">Facebook</a>
-                            </div>
-                            <ul class="about-footer-left">
-                                <li>For suppliers</li>
-
-                                <li>About production</li>
-                            </ul>
-
-                            <ul class="about-footer-right">
-                                <li>Our documents</li>
-
-                                <li>Environmental standards</li>
-                            </ul>
-                        </footer>
+		<div class="subscription">
+			<div class="subscription-container">
+				<p>Subscribe to our sweet newsletter and you will always be aware of
+					all
+					the delicious things that are happening with us. We promise not
+					to spam
+					or send
+					any
+					unnecessary nonsense. Promise!</p>
+			</div>
+		</div>
+		<form class="subscription-form" action="###" method="post">
+			<div class="wrapper-subscription">
+				<input type="email" name="subscription-email" id="subscription-email" placeholder="email@example.com">
+				<label for="subscription-email"></label>
+			</div>
+			<div class="subscription-button-wrapper">
+				<button class="button" type="submit">Send</button>
+		</form>
+		</div>
 
 
-                        </ul>
-                    </div>
-            </section>
-        </main>
+		<!-- Карта -->
+
+		<div class="map"></div>
+
+		<div class="address"></div>
+		<p class="address-information">
+			<span>Main office and offline store address:</span><br>
+			<span>1997 Marigold Lane, Erie</span>
+		</p>
+
+		<p>For orders by phone:<br>
+			<span>325-844-1362</span><br>(from 10am to 8pm daily)
+		</p>
+
+		<button>Feedback form</button>
+
+
+		<!-- Підвал сайту -->
+
+		<footer>
+			<div class="socials"> <a href="#">Twitter</a>
+				<a href="#">Instagram</a>
+				<a href="#">Facebook</a>
+			</div>
+			<ul class="about-footer-left">
+				<li>For suppliers</li>
+
+				<li>About production</li>
+			</ul>
+
+			<ul class="about-footer-right">
+				<li>Our documents</li>
+
+				<li>Environmental standards</li>
+			</ul>
+		</footer>
+
+
+		</ul>
+		</div>
+		</section>
+	</main>
 </body>
 
 </html>
