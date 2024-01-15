@@ -20,6 +20,12 @@ body {
   margin-top: -5px;
 }
 
+.container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 .main-navigation {
   color: #fff;
   font-family: Roboto;
@@ -386,12 +392,14 @@ img {
 }
 
 .blog {
-  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .blog-news {
   float: left;
-  width: 560px;
+  max-width: 48%;
+  width: 100%;
   background: #ffffff url("../img/news.jpg") no-repeat;
   background-size: cover;
   border-radius: 15px;
@@ -431,27 +439,116 @@ img {
 }
 
 .subscription {
+  float: right;
+  max-width: 48%;
+  width: 100%;
+  background: #f8f7f4 url("../img/subscription-texture.gif");
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.subscription-form > div {
+  display: flex;
+  vertical-align: top;
+  padding-left: 21px;
+  padding-right: 21px;
 }
 
 .subscription-container {
+  background-color: #f8f7f4;
+  border-radius: 10px;
+  height: 100%;
+  max-width: 100%;
 }
 
-.subscription-form {
+.subscription p {
+  margin: 0;
+  margin-bottom: 7px;
+  padding: 29px 21px;
+  color: #323232;
 }
 
-.wrapper-subscription {
+.subscription-form input[type="email"] {
+  min-height: 24px;
+  padding: 9px 14px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Roboto", Arial, sans-serif;
+  color: #323232;
+  background-color: #ffffff;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+}
+
+.subscription-form input:-ms-input-placeholder {
+  color: #999999;
+}
+
+.subscription-button {
+  margin-left: 10px;
+  padding: 9px 17px;
+  max-width: 127px;
 }
 
 .subscription-button-wrapper {
+  max-width: 127px;
 }
 
 .map {
+  margin-top: 30px;
+  position: relative;
+  min-height: 430px;
+  background-color: #849d8f;
+  background-image: url("../img/map.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.map-container {
+  position: absolute;
+  left: 50%;
+  margin-left: 425px;
 }
 
 .address {
+  position: relative;
+  z-index: 10;
+  float: right;
+  width: 252px;
+  margin: 62px 0;
+  padding: 30px 25px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #323232;
+  background-color: #ffffff;
+  border-radius: 15px;
 }
 
-.address-information {
+.address-information,
+.phone-information {
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.address .important-information {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.address .address-phone-link {
+  text-decoration: none;
+  color: #323232;
+}
+
+.feedback-button {
+  display: inline-block;
+  padding-left: 27px;
+  padding-right: 27px;
+  vertical-align: top;
 }
 
 .socials {
