@@ -365,7 +365,7 @@ img {
   cursor: pointer;
 }
 
-.about-store-motto {
+.features {
   margin-bottom: 40px;
   padding: 24px 19px;
   color: #323232;
@@ -374,21 +374,55 @@ img {
   border-radius: 15px;
 }
 
-.about-store-motto h2 {
+.features h2 {
   margin: 0;
   margin-bottom: 6px;
   font-size: 24px;
   line-height: 30px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
-.about-store-motto p {
+.features p {
   margin: 0;
   padding-left: 56px;
   padding-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
 }
 
-.motto-img {
+.features p:nth-of-type(odd) {
+  margin-bottom: 6px;
+}
+
+.features-left p:first-child {
+  background: url("../svg/ice-cream.svg") no-repeat;
+  background-position: left 4px;
+}
+
+.features-left p:last-child {
+  background: url("../svg/eco.svg") no-repeat;
+  background-position: left 4px;
+}
+
+.features-right p:first-child {
+  background: url("../svg/cow.svg") no-repeat;
+  background-position: left 4px;
+}
+
+.features-right p:last-child {
+  background: url("../svg/thermometer.svg") no-repeat;
+  background-position: left 4px;
+}
+
+.features-left {
+  float: left;
+  width: 500px;
+}
+
+.features-right {
+  float: right;
+  width: 500px;
 }
 
 .blog {
